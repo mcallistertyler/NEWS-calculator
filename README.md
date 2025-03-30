@@ -3,8 +3,9 @@
 This is a documentation page for the Case Assignment for the NEWS Calculation service's backend and frontend components.
 
 The complete service is represented by two microservices, a Java Spring Boot Server that hosts the API and a Vite Express Server written in React
-that interacts with the Java API. Both services are separated in this way to represent how I would have created the service in a `production` environment. Both components 
-would be standalone microservices running within a kubernetes cluster on a docker image. The frontend component would communicate over kubernetes, calling it via its pod name within the cluster.
+that interacts with the Java API. Both services are separated in this way to represent how I would have created the service in a `production` environment. 
+
+Both services would be standalone microservices running within a kubernetes cluster on a docker image. The frontend component would communicate over kubernetes, calling it via its pod name within the cluster.
 
 The Java back-end service is written in Java 21 and built with Gradle 8.13. A gradle wrapper is included to improve simplicity of running the service.
 
