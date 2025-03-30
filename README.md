@@ -43,8 +43,12 @@ To test the entirety of the required user-flow both services must be run simulta
 
 ## API
 
-A basic swagger page for the API can be found at:
+A basic swagger page for the API can be found at, although it is missing error responses:
 http://localhost:8080/swagger-ui/index.html#/api-controller/calculateNewsValue
+
+## Testing
+
+React playwright tests can be run via `npm run test` and Java tests via `./gradlew test`
 
 
 ## Current Limitations and Next Steps
@@ -55,6 +59,7 @@ Some improvements could be made both technically and conceptually, such as:
 - The frontend component is also using default HTML form logic for reset and validation functionality. This works for simple forms but it would perhaps be better to write custom logic if the design wants to prioritize giving the user a more specialised experience. It also wastes an API call since the user won't know a value is outside of a range until they submit the form. 
 - More accessibility features could be added, such as keyboard navigation which I haven't tested very thoroughly or screen readers which I didn't test at all.
 - The backend swagger documentation is missing error responses so any potential integrator wouldn't be able to handle those without either asking me or diving into the codebase themselves.
+- While the backend tests have a good deal of coverage the frontend is lacking on this front. Some more unittests and integration tests could have been added.
 
 Next steps for such a service before it would be production ready are as follows:
 
