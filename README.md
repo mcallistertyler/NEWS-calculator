@@ -22,6 +22,7 @@ The following should be installed to run these services locally:
     - node version: `v22.13.0`
     - java version: `21.0.2`
 
+I recommended using a version manager like [sdkman](https://sdkman.io/) for managing Java installations and [fnm](https://github.com/Schniz/fnm) for managing Node versions locally.
 
 
 The frontend can be run locally by running:
