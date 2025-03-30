@@ -1,0 +1,23 @@
+@import "tailwindcss";
+:root {
+  font-family: 'Inter', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  margin-top: 99px;
+
+  --form-width: 404px;
+  --form-height: 532px;
+
+  --submission-button-color: #7424DA;
+  --reset-button-color: #FAF6FF;
+
+  --card-background-color: #FAF6FF;
+  --card-border-color: #7424DA66;
+
+  --input-background-color: #FAF6FF;
+  --input-border-color: #7424DA0D;
+}
+
