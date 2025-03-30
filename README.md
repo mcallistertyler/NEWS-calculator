@@ -27,6 +27,7 @@ I recommended using a version manager like [sdkman](https://sdkman.io/) for mana
 
 The frontend can be run locally by running:
 ```bash
+npm install
 npm run dev
 ```
 Within the `NEWS-score-calculator-webapp` directory. It will run on http://localhost:3000 by default.
